@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDD752C22810806B004756CC /* FlipMoney WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EDD752C12810806B004756CC /* FlipMoney WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EDD752C82810806B004756CC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD752C62810806B004756CC /* Interface.storyboard */; };
+		EDD752CA2810806F004756CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD752C92810806F004756CC /* Assets.xcassets */; };
+		EDD752D02810806F004756CC /* FlipMoney WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EDD752CF2810806F004756CC /* FlipMoney WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EDD752D52810806F004756CC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD752D42810806F004756CC /* InterfaceController.swift */; };
+		EDD752D72810806F004756CC /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD752D62810806F004756CC /* ExtensionDelegate.swift */; };
+		EDD752D92810806F004756CC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD752D82810806F004756CC /* NotificationController.swift */; };
+		EDD752DB2810806F004756CC /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD752DA2810806F004756CC /* ComplicationController.swift */; };
+		EDD752DD28108071004756CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD752DC28108071004756CC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDD752C32810806B004756CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD752B72810806A004756CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD752C02810806B004756CC;
+			remoteInfo = "FlipMoney WatchKit App";
+		};
+		EDD752D12810806F004756CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD752B72810806A004756CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD752CE2810806F004756CC;
+			remoteInfo = "FlipMoney WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDD752E528108071004756CC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EDD752D02810806F004756CC /* FlipMoney WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD752E928108071004756CC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EDD752C22810806B004756CC /* FlipMoney WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EDD752BD2810806A004756CC /* FlipMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD752C12810806B004756CC /* FlipMoney WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlipMoney WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD752C72810806B004756CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EDD752C92810806F004756CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDD752CF2810806F004756CC /* FlipMoney WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FlipMoney WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD752D42810806F004756CC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		EDD752D62810806F004756CC /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		EDD752D82810806F004756CC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		EDD752DA2810806F004756CC /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		EDD752DC28108071004756CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDD752DE28108071004756CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD752DF28108071004756CC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDD752CC2810806F004756CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDD752B62810806A004756CC = {
+			isa = PBXGroup;
+			children = (
+				EDD752C52810806B004756CC /* FlipMoney WatchKit App */,
+				EDD752D32810806F004756CC /* FlipMoney WatchKit Extension */,
+				EDD752BE2810806A004756CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDD752BE2810806A004756CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDD752BD2810806A004756CC /* FlipMoney.app */,
+				EDD752C12810806B004756CC /* FlipMoney WatchKit App.app */,
+				EDD752CF2810806F004756CC /* FlipMoney WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDD752C52810806B004756CC /* FlipMoney WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EDD752C62810806B004756CC /* Interface.storyboard */,
+				EDD752C92810806F004756CC /* Assets.xcassets */,
+			);
+			path = "FlipMoney WatchKit App";
+			sourceTree = "<group>";
+		};
+		EDD752D32810806F004756CC /* FlipMoney WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EDD752D42810806F004756CC /* InterfaceController.swift */,
+				EDD752D62810806F004756CC /* ExtensionDelegate.swift */,
+				EDD752D82810806F004756CC /* NotificationController.swift */,
+				EDD752DA2810806F004756CC /* ComplicationController.swift */,
+				EDD752DC28108071004756CC /* Assets.xcassets */,
+				EDD752DE28108071004756CC /* Info.plist */,
+				EDD752DF28108071004756CC /* PushNotificationPayload.apns */,
+			);
+			path = "FlipMoney WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDD752BC2810806A004756CC /* FlipMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD752EA28108071004756CC /* Build configuration list for PBXNativeTarget "FlipMoney" */;
+			buildPhases = (
+				EDD752BB2810806A004756CC /* Resources */,
+				EDD752E928108071004756CC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD752C42810806B004756CC /* PBXTargetDependency */,
+			);
+			name = FlipMoney;
+			productName = FlipMoney;
+			productReference = EDD752BD2810806A004756CC /* FlipMoney.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		EDD752C02810806B004756CC /* FlipMoney WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD752E628108071004756CC /* Build configuration list for PBXNativeTarget "FlipMoney WatchKit App" */;
+			buildPhases = (
+				EDD752BF2810806B004756CC /* Resources */,
+				EDD752E528108071004756CC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD752D22810806F004756CC /* PBXTargetDependency */,
+			);
+			name = "FlipMoney WatchKit App";
+			productName = "FlipMoney WatchKit App";
+			productReference = EDD752C12810806B004756CC /* FlipMoney WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EDD752CE2810806F004756CC /* FlipMoney WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD752E228108071004756CC /* Build configuration list for PBXNativeTarget "FlipMoney WatchKit Extension" */;
+			buildPhases = (
+				EDD752CB2810806F004756CC /* Sources */,
+				EDD752CC2810806F004756CC /* Frameworks */,
+				EDD752CD2810806F004756CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlipMoney WatchKit Extension";
+			productName = "FlipMoney WatchKit Extension";
+			productReference = EDD752CF2810806F004756CC /* FlipMoney WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDD752B72810806A004756CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					EDD752BC2810806A004756CC = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					EDD752C02810806B004756CC = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					EDD752CE2810806F004756CC = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EDD752BA2810806A004756CC /* Build configuration list for PBXProject "FlipMoney" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDD752B62810806A004756CC;
+			productRefGroup = EDD752BE2810806A004756CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDD752BC2810806A004756CC /* FlipMoney */,
+				EDD752C02810806B004756CC /* FlipMoney WatchKit App */,
+				EDD752CE2810806F004756CC /* FlipMoney WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDD752BB2810806A004756CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD752BF2810806B004756CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD752CA2810806F004756CC /* Assets.xcassets in Resources */,
+				EDD752C82810806B004756CC /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD752CD2810806F004756CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD752DD28108071004756CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDD752CB2810806F004756CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD752D92810806F004756CC /* NotificationController.swift in Sources */,
+				EDD752DB2810806F004756CC /* ComplicationController.swift in Sources */,
+				EDD752D72810806F004756CC /* ExtensionDelegate.swift in Sources */,
+				EDD752D52810806F004756CC /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDD752C42810806B004756CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD752C02810806B004756CC /* FlipMoney WatchKit App */;
+			targetProxy = EDD752C32810806B004756CC /* PBXContainerItemProxy */;
+		};
+		EDD752D22810806F004756CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD752CE2810806F004756CC /* FlipMoney WatchKit Extension */;
+			targetProxy = EDD752D12810806F004756CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDD752C62810806B004756CC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDD752C72810806B004756CC /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDD752E028108071004756CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDD752E128108071004756CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDD752E328108071004756CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UBS68N6TVH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FlipMoney WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FlipMoney WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.soadekb.FlipMoney.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		EDD752E428108071004756CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UBS68N6TVH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FlipMoney WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FlipMoney WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.soadekb.FlipMoney.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		EDD752E728108071004756CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UBS68N6TVH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = FlipMoney_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "FlipMoney WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.soadekb.FlipMoney.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		EDD752E828108071004756CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UBS68N6TVH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = FlipMoney_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "FlipMoney WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.soadekb.FlipMoney.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		EDD752EB28108071004756CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UBS68N6TVH;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.soadekb.FlipMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EDD752EC28108071004756CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UBS68N6TVH;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.soadekb.FlipMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDD752BA2810806A004756CC /* Build configuration list for PBXProject "FlipMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD752E028108071004756CC /* Debug */,
+				EDD752E128108071004756CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD752E228108071004756CC /* Build configuration list for PBXNativeTarget "FlipMoney WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD752E328108071004756CC /* Debug */,
+				EDD752E428108071004756CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD752E628108071004756CC /* Build configuration list for PBXNativeTarget "FlipMoney WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD752E728108071004756CC /* Debug */,
+				EDD752E828108071004756CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD752EA28108071004756CC /* Build configuration list for PBXNativeTarget "FlipMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD752EB28108071004756CC /* Debug */,
+				EDD752EC28108071004756CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDD752B72810806A004756CC /* Project object */;
+}
